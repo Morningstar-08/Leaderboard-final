@@ -16,7 +16,7 @@ app.use(cors())
 app.use("/", router); // path must route to lambda
 
 // With this, we'll listen for the server on port 8080
-app.listen(port, () => console.log(`Listening on port ${port}`));
+// app.listen(port, () => console.log(`Listening on port ${port}`));
 
 
 async function authSheets() {
